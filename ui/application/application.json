@@ -1,0 +1,12 @@
+{
+   "description": "pathTest2",
+   "id": "pathTest2",
+   "pages": {
+      "Home": {
+         "name": "Home",
+         "type": "application"
+      }
+   },
+   "path": "myPath/v21",
+   "version": 1
+}
