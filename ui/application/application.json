@@ -1,0 +1,12 @@
+{
+   "description": "pathSol1",
+   "id": "pathSol1",
+   "pages": {
+      "Home": {
+         "name": "Home",
+         "type": "application"
+      }
+   },
+   "path": "pathSolBr1/pathSolv1",
+   "version": 1
+}
