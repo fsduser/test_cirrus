@@ -1,0 +1,12 @@
+{
+   "description": "test_cirrus_exists_1",
+   "id": "test_cirrus_exists_1",
+   "pages": {
+      "Home": {
+         "name": "Home",
+         "type": "application"
+      }
+   },
+   "path": "test_cirrus_exists_1/v1",
+   "version": 1
+}
