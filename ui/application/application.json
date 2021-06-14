@@ -1,0 +1,12 @@
+{
+   "description": "test_cirrus_branch3",
+   "id": "test_cirrus_branch3",
+   "pages": {
+      "Home": {
+         "name": "Home",
+         "type": "application"
+      }
+   },
+   "path": "test_cirrus_branch3/v1",
+   "version": 1
+}
