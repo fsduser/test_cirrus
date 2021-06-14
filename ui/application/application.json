@@ -1,0 +1,12 @@
+{
+   "description": "FIFA",
+   "id": "FIFA",
+   "pages": {
+      "Home": {
+         "name": "Home",
+         "type": "application"
+      }
+   },
+   "path": "FIFA/v1",
+   "version": 1
+}
