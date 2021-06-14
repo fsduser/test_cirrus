@@ -1,0 +1,56 @@
+{
+   "onSelectTask": {
+      "inputs": [
+         {
+            "datatype": "text",
+            "name": "input_key"
+         },
+         {
+            "datatype": "text",
+            "name": "input_objectType"
+         },
+         {
+            "datatype": "text",
+            "name": "input_taskId"
+         }
+      ],
+      "logic": [
+         {
+            "action": "setvar",
+            "id": "d21a892c-7e39-4a60-b54d-d00a19b3ef09",
+            "type": "calculated",
+            "value": {
+               "function": "getEditLocation",
+               "library": "CirrusMRM",
+               "params": {
+                  "key": {
+                     "datatype": "text",
+                     "name": "input_key",
+                     "scope": "local"
+                  },
+                  "objectType": {
+                     "datatype": "text",
+                     "name": "input_objectType",
+                     "scope": "local"
+                  }
+               },
+               "returnType": "text"
+            },
+            "variable": {
+               "datatype": "text",
+               "name": "navigationLink",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "nav",
+            "id": "2ad37773-1bea-4ce2-8d07-937bb30fb4e1",
+            "location": {
+               "datatype": "text",
+               "name": "navigationLink",
+               "scope": "local"
+            }
+         }
+      ]
+   }
+}

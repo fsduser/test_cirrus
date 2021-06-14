@@ -1,0 +1,12 @@
+{
+   "ModelReview.library.label.base.Accordion.Accordion.0.title": "Classification",
+   "ModelReview.library.label.base.TabView.TabView.0.title": "Details",
+   "ModelReview.library.label.base.TabView.TabView.1.title": "Team",
+   "ModelReview.library.label.base.TabView.TabView.2.title": "Annual Review Details",
+   "ModelReview.library.label.base.TabView.TabView.3.title": "Full Scope Validation",
+   "ModelReview.library.label.base.TabView.TabView.4.title": "Model Monitoring and Maintenance Details",
+   "ModelReview.library.label.base.TabView.TabView.5.title": "Model Performance Review Details",
+   "ModelReview.library.label.base.TabView.TabView.6.title": "Other Review Details",
+   "ModelReview.library.label.base.TabView.TabView.7.title": "Related Objects",
+   "ModelReview.library.label.base.TabView.TabView.8.title": "Notes and Comments"
+}

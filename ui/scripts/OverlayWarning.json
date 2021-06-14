@@ -1,0 +1,118 @@
+{
+   "onPageLoad": {
+      "inputs": [
+         {
+            "datatype": "text",
+            "name": "input_modelKey"
+         }
+      ],
+      "logic": [
+         {
+            "action": "setvar",
+            "id": "b24a2ea3-79c6-4594-befc-6ed109efacf0",
+            "type": "fixed",
+            "value": {
+               "datatype": "boolean",
+               "dataval": true
+            },
+            "variable": {
+               "datatype": "boolean",
+               "name": "isReadOnly",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "setprop",
+            "function": "setReadOnly",
+            "id": "c71ff0ba-4616-46ed-b6b5-9f99d18d255d",
+            "params": {
+               "readOnly": {
+                  "datatype": "boolean",
+                  "name": "isReadOnly",
+                  "scope": "local"
+               }
+            },
+            "scope": "currentPage",
+            "widgetId": "overlay_applied"
+         },
+         {
+            "action": "setprop",
+            "function": "setReadOnly",
+            "id": "6db0eb39-e69c-4d81-a096-d43f0f32a6f2",
+            "params": {
+               "readOnly": {
+                  "datatype": "boolean",
+                  "name": "isReadOnly",
+                  "scope": "local"
+               }
+            },
+            "scope": "currentPage",
+            "widgetId": "overlay_applier"
+         },
+         {
+            "action": "setprop",
+            "function": "setReadOnly",
+            "id": "893c819b-e79b-4f59-b1d4-440c74b6138d",
+            "params": {
+               "readOnly": {
+                  "datatype": "boolean",
+                  "name": "isReadOnly",
+                  "scope": "local"
+               }
+            },
+            "scope": "currentPage",
+            "widgetId": "overlay_reviewer"
+         },
+         {
+            "action": "setprop",
+            "function": "setReadOnly",
+            "id": "e75e1ab0-c9fd-467b-b2e3-5065e0c57a67",
+            "params": {
+               "readOnly": {
+                  "datatype": "boolean",
+                  "name": "isReadOnly",
+                  "scope": "local"
+               }
+            },
+            "scope": "currentPage",
+            "widgetId": "overlay_valid_to"
+         },
+         {
+            "action": "setprop",
+            "function": "setReadOnly",
+            "id": "7276b947-eae1-405d-8808-5cbfd2184cf2",
+            "params": {
+               "readOnly": {
+                  "datatype": "boolean",
+                  "name": "isReadOnly",
+                  "scope": "local"
+               }
+            },
+            "scope": "currentPage",
+            "widgetId": "reason_for_overlay"
+         },
+         {
+            "action": "setvar",
+            "id": "0b228cf5-e26e-4dc0-b35d-0fd3c0deca66",
+            "type": "calculated",
+            "value": {
+               "function": "loadExistingObject",
+               "library": "CirrusMRM",
+               "params": {
+                  "key": {
+                     "datatype": "text",
+                     "name": "input_modelKey",
+                     "scope": "local"
+                  }
+               },
+               "returnType": "All Data"
+            },
+            "variable": {
+               "datatype": "All Data",
+               "name": "modelData",
+               "scope": "local"
+            }
+         }
+      ]
+   }
+}

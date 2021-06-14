@@ -1,0 +1,21 @@
+{
+   "ModelScorecard.Model.schema.field.control_score.label": "Control score",
+   "ModelScorecard.Model.schema.field.inherent_risk_rating.label": "Inherent risk rating",
+   "ModelScorecard.Model.schema.field.latest_attestation.label": "Latest attestation",
+   "ModelScorecard.Model.schema.field.latest_risk_assessment.label": "Latest risk assessment",
+   "ModelScorecard.Model.schema.field.name.label": "Model name",
+   "ModelScorecard.Model.schema.field.objectId.label": "Model ID",
+   "ModelScorecard.Model.schema.field.residual_risk_rating.label": "Residual risk rating",
+   "ModelScorecard.Model.schema.field.risk_tier.label": "Risk tier",
+   "ModelScorecard.Model.schema.field.source_model_name.label": "Source model",
+   "ModelScorecard.Model.schema.field.version.label": "Model version",
+   "ModelScorecard.library.label.base.Button.register_from_repository.title": "Register Model",
+   "ModelScorecard.library.label.base.Image.Image_1.title": "Image",
+   "ModelScorecard.library.label.base.Image.Image_3.title": "Image",
+   "ModelScorecard.library.label.base.Image.Image_4.title": "Image",
+   "ModelScorecard.library.label.base.ModelWellness.ModelWellness.title": "Overall Model Wellness",
+   "ModelScorecard.library.label.base.ReadonlyFieldWidget.days_since_last_validation.title": "Days since last validation",
+   "ModelScorecard.library.label.base.RichText.RichText.title": "Rich Text",
+   "ModelScorecard.library.label.base.RichText.RichText_1.title": "Rich Text",
+   "ModelScorecard.library.label.base.RichText.RichText_2.title": "Rich Text"
+}

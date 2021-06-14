@@ -1,0 +1,760 @@
+{
+   "apiName": "modelReviews",
+   "bulkAPI": true,
+   "fields": {
+      "actualEndDt": {
+         "id": "actualEndDt",
+         "label": "Actual end date of review",
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "actualStartDt": {
+         "id": "actualStartDt",
+         "label": "Actual start date of review",
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "additionalAttachments": {
+         "id": "additionalAttachments",
+         "label": "Additional relevant and supporting documentation",
+         "type": {
+            "compName": "RGFAttachments",
+            "libName": "base"
+         }
+      },
+      "additionalComments": {
+         "id": "additionalComments",
+         "label": "Additional comments",
+         "type": {
+            "compName": "Comments",
+            "libName": "base"
+         }
+      },
+      "additionalLinks": {
+         "id": "additionalLinks",
+         "label": "Review-Related Links",
+         "type": {
+            "compName": "Links",
+            "libName": "base"
+         }
+      },
+      "annualReviewStatus": {
+         "id": "annualReviewStatus",
+         "label": "Annual review status",
+         "props": {
+            "enableClear": true,
+            "options": [
+               {
+                  "label": "High",
+                  "value": "HIGH"
+               },
+               {
+                  "label": "Medium",
+                  "value": "MEDIUM"
+               },
+               {
+                  "label": "Low",
+                  "value": "LOW"
+               }
+            ]
+         },
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Dropdown",
+            "libName": "base"
+         }
+      },
+      "classification": {
+         "id": "classification",
+         "label": "Classification",
+         "props": {},
+         "tableMeta": {},
+         "type": {
+            "compName": "RGFClassification",
+            "libName": "base"
+         }
+      },
+      "createdDt": {
+         "id": "createdDt",
+         "label": "Date of creation",
+         "tableMeta": {
+            "dataType": "date",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "creatorNm": {
+         "id": "creatorNm",
+         "label": "Creator",
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "description": {
+         "id": "description",
+         "label": "Review description",
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputTextarea",
+            "libName": "base"
+         }
+      },
+      "implementationDt": {
+         "id": "implementationDt",
+         "label": "Date of model implementation",
+         "tableMeta": {
+            "dataType": "date",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "implementationFlg": {
+         "id": "implementationFlg",
+         "label": "Implementation is complete",
+         "tableMeta": {
+            "dataType": "boolean",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "CheckboxField",
+            "libName": "base"
+         }
+      },
+      "issueMgmtFlg": {
+         "id": "issueMgmtFlg",
+         "label": "Issue management is complete",
+         "tableMeta": {
+            "dataType": "boolean",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "CheckboxField",
+            "libName": "base"
+         }
+      },
+      "lastAnnualRevDt": {
+         "id": "lastAnnualRevDt",
+         "label": "Date of last annual review",
+         "tableMeta": {
+            "dataType": "date",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "lastFsvDt": {
+         "id": "lastFsvDt",
+         "label": "Date of last full scope validation",
+         "tableMeta": {
+            "dataType": "date",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "lastPerfRevDt": {
+         "id": "lastPerfRevDt",
+         "label": "Date of last model performance review",
+         "tableMeta": {
+            "dataType": "date",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "lastUseDt": {
+         "id": "lastUseDt",
+         "label": "Date model was last used",
+         "tableMeta": {
+            "dataType": "date",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "lastValidationRating": {
+         "help": "This is the latest validation outcome from the model under review",
+         "id": "lastValidationRating",
+         "label": "Previous validation outcome",
+         "props": {
+            "colors": [
+               {
+                  "color": "#ff4d4d",
+                  "value": "RED"
+               },
+               {
+                  "color": "#ffb829",
+                  "value": "YELLOW"
+               },
+               {
+                  "color": "#0eaa18",
+                  "value": "GREEN"
+               },
+               {
+                  "color": "#b1b8c3",
+                  "value": "INPROGRESS"
+               }
+            ],
+            "enableClear": true,
+            "options": [
+               {
+                  "label": "Unfit for intended use",
+                  "value": "RED"
+               },
+               {
+                  "label": "Fit for intended use with conditions",
+                  "value": "YELLOW"
+               },
+               {
+                  "label": "Fit for intended use",
+                  "value": "GREEN"
+               },
+               {
+                  "label": "Not yet rated",
+                  "value": "INPROGRESS"
+               }
+            ]
+         },
+         "type": {
+            "compName": "ColorDropdown",
+            "libName": "base"
+         }
+      },
+      "materiality": {
+         "id": "materiality",
+         "label": "MRMG materiality",
+         "props": {
+            "colors": [
+               {
+                  "color": "#ff4d4d",
+                  "value": "HIGH"
+               },
+               {
+                  "color": "#ffb829",
+                  "value": "MEDIUM"
+               },
+               {
+                  "color": "#0eaa18",
+                  "value": "LOW"
+               }
+            ],
+            "enableClear": true,
+            "options": [
+               {
+                  "label": "High",
+                  "value": "HIGH"
+               },
+               {
+                  "label": "Moderate",
+                  "value": "MEDIUM"
+               },
+               {
+                  "label": "Low",
+                  "value": "LOW"
+               }
+            ]
+         },
+         "type": {
+            "compName": "ColorDropdown",
+            "libName": "base"
+         }
+      },
+      "modelDocFlg": {
+         "help": "If checked, the model under review has documentation attached to it.",
+         "id": "modelDocFlg",
+         "label": "Model has documentation",
+         "tableMeta": {
+            "dataType": "boolean",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "CheckboxField",
+            "libName": "base"
+         }
+      },
+      "modelRiskTier": {
+         "help": "This is the current risk tier of the model under review",
+         "id": "modelRiskTier",
+         "label": "Current risk tier",
+         "props": {
+            "colors": [
+               {
+                  "color": "#ff4d4d",
+                  "value": "PICK_1"
+               },
+               {
+                  "color": "#ff8324",
+                  "value": "PICK_2"
+               },
+               {
+                  "color": "#ffb829",
+                  "value": "PICK_3"
+               },
+               {
+                  "color": "#0eaa18",
+                  "value": "PICK_4"
+               },
+               {
+                  "color": "#b1b8c3",
+                  "value": "PICK_5"
+               }
+            ],
+            "enableClear": true,
+            "options": [
+               {
+                  "label": "Tier 1",
+                  "value": "PICK_1"
+               },
+               {
+                  "label": "Tier 2",
+                  "value": "PICK_2"
+               },
+               {
+                  "label": "Tier 3",
+                  "value": "PICK_3"
+               },
+               {
+                  "label": "Tier 4 (non-material)",
+                  "value": "PICK_4"
+               },
+               {
+                  "label": "Unspecified",
+                  "value": "PICK_5"
+               }
+            ]
+         },
+         "type": {
+            "compName": "ColorDropdown",
+            "libName": "base"
+         }
+      },
+      "name": {
+         "id": "name",
+         "label": "Review name",
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "nextAnnualRevDt": {
+         "id": "nextAnnualRevDt",
+         "label": "Date of next annual review",
+         "tableMeta": {
+            "dataType": "date",
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "nextValidationDt": {
+         "id": "nextValidationDt",
+         "label": "Date of next validation",
+         "tableMeta": {
+            "dataType": "date",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "objectId": {
+         "id": "objectId",
+         "label": "Review ID",
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "plannedEndDt": {
+         "id": "plannedEndDt",
+         "label": "Planned end date of review",
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "plannedStartDt": {
+         "id": "plannedStartDt",
+         "label": "Planned start date of review",
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "reviewAttachments": {
+         "id": "reviewAttachments",
+         "label": "Review documentation - attachments",
+         "type": {
+            "compName": "RGFAttachments",
+            "libName": "base"
+         }
+      },
+      "reviewComments": {
+         "id": "reviewComments",
+         "label": "Review comments",
+         "type": {
+            "compName": "Comments",
+            "libName": "base"
+         }
+      },
+      "reviewLinks": {
+         "id": "reviewLinks",
+         "label": "Review documentation - links",
+         "type": {
+            "compName": "Links",
+            "libName": "base"
+         }
+      },
+      "reviewStatus": {
+         "id": "reviewStatus",
+         "label": "Review status",
+         "props": {
+            "enableClear": true,
+            "options": [
+               {
+                  "label": "Draft",
+                  "value": "CREATE"
+               },
+               {
+                  "label": "Edit",
+                  "value": "CREATED"
+               },
+               {
+                  "label": "Under review",
+                  "value": "UNDER_REVIEW"
+               },
+               {
+                  "label": "Submitted for full scope validation",
+                  "value": "SUBMITTED_FOR_FSV"
+               },
+               {
+                  "label": "Full scope validation complete",
+                  "value": "FULL_SCOPE_VALIDATION_COMPLETED"
+               },
+               {
+                  "label": "Manage non-critical issues",
+                  "value": "MANAGE_NON_RED_ISSUES"
+               },
+               {
+                  "label": "Manage critical issues",
+                  "value": "MANAGE_RED_ISSUES"
+               },
+               {
+                  "label": "Validation complete",
+                  "value": "VALIDATION_COMPLETED"
+               }
+            ]
+         },
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Dropdown",
+            "libName": "base"
+         }
+      },
+      "reviewType": {
+         "id": "reviewType",
+         "label": "Review type",
+         "props": {
+            "enableClear": true,
+            "options": [
+               {
+                  "label": "Annual review",
+                  "value": "AR"
+               },
+               {
+                  "label": "Full scope validation",
+                  "value": "FSV"
+               },
+               {
+                  "label": "Model monitoring and maintenance",
+                  "value": "MMM"
+               },
+               {
+                  "label": "Model performance review",
+                  "value": "MPV"
+               },
+               {
+                  "label": "Other",
+                  "value": "OTH"
+               }
+            ]
+         },
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Dropdown",
+            "libName": "base"
+         }
+      },
+      "updatedDt": {
+         "id": "updatedDt",
+         "label": "Date of last update",
+         "tableMeta": {
+            "dataType": "date",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "updaterNm": {
+         "id": "updaterNm",
+         "label": "Last editor",
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "validationRating": {
+         "id": "validationRating",
+         "label": "Validation outcome",
+         "props": {
+            "colors": [
+               {
+                  "color": "#ff4d4d",
+                  "value": "RED"
+               },
+               {
+                  "color": "#ffb829",
+                  "value": "YELLOW"
+               },
+               {
+                  "color": "#0eaa18",
+                  "value": "GREEN"
+               },
+               {
+                  "color": "#b1b8c3",
+                  "value": "INPROGRESS"
+               }
+            ],
+            "enableClear": true,
+            "options": [
+               {
+                  "label": "Unfit for intended use",
+                  "value": "RED"
+               },
+               {
+                  "label": "Fit for intended use with conditions",
+                  "value": "YELLOW"
+               },
+               {
+                  "label": "Fit for intended use",
+                  "value": "GREEN"
+               },
+               {
+                  "label": "Not yet rated",
+                  "value": "INPROGRESS"
+               }
+            ]
+         },
+         "type": {
+            "compName": "ColorDropdown",
+            "libName": "base"
+         }
+      }
+   },
+   "id": "ModelReview",
+   "relationships": {
+      "modelReview_finding": {
+         "cardinality": "many",
+         "label": "Model Reviews",
+         "sourceLabel": "Model Review",
+         "sourceLabelPlural": "Model Reviews",
+         "sourceName": "foundModelReviews",
+         "sourceType": "ModelReview",
+         "targetLabel": "Finding",
+         "targetLabelPlural": "Findings",
+         "targetName": "linkedFindings",
+         "targetType": "Finding",
+         "type": "lookup"
+      },
+      "modelReview_modelReview": {
+         "cardinality": "many",
+         "sourceLabel": "Related Model Review",
+         "sourceLabelPlural": "Related Model Reviews",
+         "sourceName": "otherLinkedReviews",
+         "sourceType": "ModelReview",
+         "targetLabel": "Related Model Review",
+         "targetLabelPlural": "Related Model Reviews",
+         "targetName": "linkedReviews",
+         "targetType": "ModelReview",
+         "type": "lookup"
+      },
+      "modelReview_modelTeam": {
+         "cardinality": "many",
+         "label": "Model Reviews",
+         "sourceLabel": "Model Review",
+         "sourceLabelPlural": "Model Reviews",
+         "sourceName": "modelreviewTeam",
+         "sourceType": "ModelReview",
+         "targetLabel": "Modeling Team",
+         "targetLabelPlural": "Modeling Team",
+         "targetName": "modelTeam",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "modelReview_mrmg": {
+         "cardinality": "many",
+         "label": "Model Reviews MRMG",
+         "sourceLabel": "Model Review MRMG",
+         "sourceLabelPlural": "Model Reviews MRMG",
+         "sourceName": "modelreviewMRMG",
+         "sourceType": "ModelReview",
+         "targetLabel": "MRMG Team",
+         "targetLabelPlural": "MRMG Team",
+         "targetName": "mrmgUsers",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "modelReview_validator": {
+         "cardinality": "many",
+         "sourceLabel": "Model Review Validation",
+         "sourceLabelPlural": "Model Review Validations",
+         "sourceName": "validatedModelReviews",
+         "sourceType": "ModelReview",
+         "targetLabel": "Model Validator",
+         "targetLabelPlural": "Model Validators",
+         "targetName": "validators",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "model_modelReview": {
+         "cardinality": "many",
+         "label": "Model Reviews",
+         "sourceLabel": "Model",
+         "sourceLabelPlural": "Models",
+         "sourceName": "linked_Models",
+         "sourceType": "Model",
+         "targetLabel": "Model review",
+         "targetLabelPlural": "Model reviews",
+         "targetName": "linked_Reviews",
+         "targetType": "ModelReview",
+         "type": "lookup"
+      }
+   },
+   "searchable": true,
+   "security": {
+      "actions": {
+         "edit": false,
+         "execute": false,
+         "view": true
+      },
+      "allowSharing": true,
+      "useHierarchy": true
+   },
+   "streamAPI": true
+}

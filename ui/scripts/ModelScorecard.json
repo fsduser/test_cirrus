@@ -1,0 +1,245 @@
+{
+   "onDraftLoad": {
+      "inputs": [],
+      "logic": [
+         {
+            "action": "setvar",
+            "id": "7de8be3f-aa61-48ae-ab6e-979a52cb59ed",
+            "type": "calculated",
+            "value": {
+               "function": "loadDraftObject",
+               "library": "CirrusMRM",
+               "params": {},
+               "returnType": "All Data"
+            },
+            "variable": {
+               "datatype": "All Data",
+               "name": "data",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "execfunc",
+            "function": "loadData",
+            "id": "e538758c-52cc-4be7-a3f2-1bca66649dce",
+            "library": "CirrusLibXYZ",
+            "params": {
+               "data": {
+                  "datatype": "All Data",
+                  "name": "data",
+                  "scope": "local"
+               }
+            }
+         },
+         {
+            "action": "setvar",
+            "id": "d9d1d0ad-a736-4085-8112-db40d3163eba",
+            "type": "fixed",
+            "value": {
+               "datatype": "boolean",
+               "dataval": "true"
+            },
+            "variable": {
+               "datatype": "boolean",
+               "name": "isReadOnly",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "setprop",
+            "function": "setReadOnly",
+            "id": "fdd3e38d-0ef9-4037-bd74-adceb1273abe",
+            "params": {
+               "readOnly": {
+                  "datatype": "boolean",
+                  "name": "isReadOnly",
+                  "scope": "local"
+               }
+            },
+            "widgetId": "latest_validation_1"
+         },
+         {
+            "action": "setprop",
+            "function": "setReadOnly",
+            "id": "26908782-825b-4c40-bc41-ac8ae7b2f42e",
+            "params": {
+               "readOnly": {
+                  "datatype": "boolean",
+                  "name": "isReadOnly",
+                  "scope": "local"
+               }
+            },
+            "widgetId": "latest_validation_rating"
+         },
+         {
+            "action": "setprop",
+            "function": "setReadOnly",
+            "id": "733e8544-0918-46f1-9c1e-993caecd094d",
+            "params": {
+               "readOnly": {
+                  "datatype": "boolean",
+                  "name": "isReadOnly",
+                  "scope": "local"
+               }
+            },
+            "widgetId": "next_validation"
+         },
+         {
+            "action": "setprop",
+            "function": "setReadOnly",
+            "id": "8ad50d04-29e1-43c0-8c70-4cc7fd9842ef",
+            "params": {
+               "readOnly": {
+                  "datatype": "boolean",
+                  "name": "isReadOnly",
+                  "scope": "local"
+               }
+            },
+            "widgetId": "days_since_last_validation"
+         }
+      ]
+   },
+   "onLatestValidationChange": {
+      "inputs": [
+         {
+            "datatype": "date",
+            "name": "input_value"
+         }
+      ],
+      "logic": [
+         {
+            "action": "setvar",
+            "id": "3b343340-9648-4198-8103-4d99feb8b9b7",
+            "type": "calculated",
+            "value": {
+               "function": "isNull",
+               "library": "CirrusLibGeneral",
+               "params": {
+                  "value": {
+                     "datatype": "date",
+                     "name": "input_value",
+                     "scope": "local"
+                  }
+               },
+               "returnType": "boolean"
+            },
+            "variable": {
+               "datatype": "boolean",
+               "name": "isInputNull",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "ifelse",
+            "id": "a6c7bbc0-3e4b-45a0-91c2-e0a79a9568e2",
+            "includeElse": true,
+            "test": {
+               "datatype": "boolean",
+               "name": "isInputNull",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "setvar",
+            "id": "75761a75-5700-46af-aed0-19c73fc62748",
+            "type": "fixed",
+            "value": {
+               "datatype": "text",
+               "dataval": ""
+            },
+            "variable": {
+               "datatype": "text",
+               "name": "days_since_last_validation",
+               "pageId": "Model",
+               "scope": "data",
+               "target": "$self$"
+            }
+         },
+         {
+            "action": "ifelse",
+            "id": "5e026193-31bc-43dd-865f-318b39c6d8a5",
+            "includeElse": true,
+            "iselse": true,
+            "main": "a6c7bbc0-3e4b-45a0-91c2-e0a79a9568e2",
+            "test": {
+               "datatype": "boolean",
+               "name": "isInputNull",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "setvar",
+            "id": "eda17287-1b00-48f3-b2c8-9d40da9594f8",
+            "type": "calculated",
+            "value": {
+               "function": "daysSince",
+               "library": "CirrusLibDateTime",
+               "params": {
+                  "date": {
+                     "datatype": "date",
+                     "name": "input_value",
+                     "scope": "local"
+                  }
+               },
+               "returnType": "numeric"
+            },
+            "variable": {
+               "datatype": "numeric",
+               "name": "daysSinceLastValidation",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "setvar",
+            "id": "98495c76-e042-478a-92c3-bf7cecead30d",
+            "type": "calculated",
+            "value": {
+               "function": "round",
+               "library": "CirrusLibMath",
+               "params": {
+                  "number": {
+                     "datatype": "numeric",
+                     "name": "daysSinceLastValidation",
+                     "scope": "local"
+                  }
+               },
+               "returnType": "numeric"
+            },
+            "variable": {
+               "datatype": "numeric",
+               "name": "roundDaysSinceLastValidation",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "setvar",
+            "id": "1680aa8f-ffbb-4516-bc36-9cc3851c269f",
+            "type": "variable",
+            "value": {
+               "datatype": "numeric",
+               "name": "roundDaysSinceLastValidation",
+               "scope": "local"
+            },
+            "variable": {
+               "datatype": "numeric",
+               "name": "days_since_last_validation",
+               "pageId": "Model",
+               "scope": "data",
+               "target": "$self$"
+            }
+         },
+         {
+            "action": "ifelse",
+            "end": true,
+            "id": "c2f0fa71-23ff-45ed-8aa0-76815fe1336b",
+            "includeElse": true,
+            "main": "a6c7bbc0-3e4b-45a0-91c2-e0a79a9568e2",
+            "test": {
+               "datatype": "boolean",
+               "name": "isInputNull",
+               "scope": "local"
+            }
+         }
+      ]
+   }
+}
