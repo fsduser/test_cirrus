@@ -1,0 +1,12 @@
+{
+   "description": "SAMEPATH_DIFF_VERSION",
+   "id": "SAMEPATH_DIFF_VERSION",
+   "pages": {
+      "Home": {
+         "name": "Home",
+         "type": "application"
+      }
+   },
+   "path": "cirrus/gets/it/done",
+   "version": 1
+}
