@@ -1,0 +1,144 @@
+{
+   "layouts": {
+      "base": [
+         {
+            "h": 50,
+            "i": "overlay_applier",
+            "minH": 50,
+            "minW": 1,
+            "moved": false,
+            "static": false,
+            "w": 3,
+            "x": 0,
+            "y": 32
+         },
+         {
+            "h": 50,
+            "i": "overlay_reviewer",
+            "minH": 50,
+            "minW": 1,
+            "moved": false,
+            "static": false,
+            "w": 3,
+            "x": 0,
+            "y": 82
+         },
+         {
+            "h": 100,
+            "i": "reason_for_overlay",
+            "minH": 50,
+            "minW": 1,
+            "moved": false,
+            "static": false,
+            "w": 3,
+            "x": 3,
+            "y": 32
+         },
+         {
+            "h": 50,
+            "i": "overlay_applied",
+            "minH": 50,
+            "minW": 1,
+            "moved": false,
+            "static": false,
+            "w": 2,
+            "x": 6,
+            "y": 32
+         },
+         {
+            "h": 50,
+            "i": "overlay_valid_to",
+            "minH": 50,
+            "minW": 1,
+            "moved": false,
+            "static": false,
+            "w": 2,
+            "x": 6,
+            "y": 82
+         },
+         {
+            "h": 32,
+            "i": "overlay_warning_msg",
+            "minH": 24,
+            "minW": 1,
+            "moved": false,
+            "static": false,
+            "w": 8,
+            "x": 0,
+            "y": 0
+         }
+      ]
+   },
+   "page": {
+      "entrypoints": {
+         "onPageLoad": {
+            "name": "onPageLoad"
+         }
+      },
+      "events": {
+         "onTabClose": {}
+      },
+      "props": {
+         "description": "",
+         "icon": "",
+         "id": "OverlayWarning",
+         "label": "Overlay Warning"
+      }
+   },
+   "structure": {
+      "base": [
+         {
+            "compName": "InputText",
+            "fieldName": "overlay_applier",
+            "id": "overlay_applier",
+            "libName": "base",
+            "parentId": "base",
+            "props": {}
+         },
+         {
+            "compName": "InputText",
+            "fieldName": "overlay_reviewer",
+            "id": "overlay_reviewer",
+            "libName": "base",
+            "parentId": "base",
+            "props": {}
+         },
+         {
+            "compName": "InputTextarea",
+            "fieldName": "reason_for_overlay",
+            "id": "reason_for_overlay",
+            "libName": "base",
+            "parentId": "base",
+            "props": {
+               "rows": 3
+            }
+         },
+         {
+            "compName": "Calendar",
+            "fieldName": "overlay_applied",
+            "id": "overlay_applied",
+            "libName": "base",
+            "parentId": "base",
+            "props": {}
+         },
+         {
+            "compName": "Calendar",
+            "fieldName": "overlay_valid_to",
+            "id": "overlay_valid_to",
+            "libName": "base",
+            "parentId": "base",
+            "props": {}
+         },
+         {
+            "compName": "ReadonlyFieldWidget",
+            "id": "overlay_warning_msg",
+            "label": "appbuilder.toolboxitem.readonlyfield.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {
+               "boldLabel": true
+            }
+         }
+      ]
+   }
+}

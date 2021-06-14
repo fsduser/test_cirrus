@@ -1,0 +1,74 @@
+{
+   "layouts": {
+      "TabView": [
+         [
+            {
+               "h": 600,
+               "i": "RGFDataLoad",
+               "minH": 150,
+               "minW": 5,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 0
+            }
+         ]
+      ],
+      "base": [
+         {
+            "h": 653,
+            "i": "TabView",
+            "minH": 50,
+            "minW": 2,
+            "moved": false,
+            "static": false,
+            "w": 12,
+            "x": 0,
+            "y": 5
+         }
+      ]
+   },
+   "page": {
+      "entrypoints": {
+         "onPageLoad": {
+            "params": {}
+         }
+      },
+      "events": {
+         "onTabClose": {}
+      },
+      "props": {
+         "description": "",
+         "icon": "",
+         "id": "Administration",
+         "label": "Administration"
+      }
+   },
+   "structure": {
+      "TabView": [
+         [
+            {
+               "compName": "RGFDataLoad",
+               "id": "RGFDataLoad",
+               "label": "appbuilder.toolboxitem.rgfDataLoad.title",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            }
+         ]
+      ],
+      "base": [
+         {
+            "compName": "TabView",
+            "id": "TabView",
+            "label": "appbuilder.toolboxitem.tabview.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {
+               "activeIndex": 0
+            }
+         }
+      ]
+   }
+}

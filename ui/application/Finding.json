@@ -1,0 +1,963 @@
+{
+   "layouts": {
+      "TabView": [
+         [
+            {
+               "h": 224,
+               "i": "details_container_left",
+               "minH": 50,
+               "minW": 2,
+               "moved": false,
+               "static": false,
+               "w": 5,
+               "x": 0,
+               "y": 1
+            },
+            {
+               "h": 224,
+               "i": "details_container_center",
+               "minH": 50,
+               "minW": 2,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 5,
+               "y": 0
+            },
+            {
+               "h": 224,
+               "i": "details_container_right",
+               "minH": 50,
+               "minW": 2,
+               "moved": false,
+               "static": false,
+               "w": 3,
+               "x": 9,
+               "y": 0
+            }
+         ],
+         [
+            {
+               "h": 20,
+               "i": "Image_1",
+               "minH": 1,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 60,
+               "i": "initiator",
+               "minH": 50,
+               "minW": 4,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 21
+            },
+            {
+               "h": 60,
+               "i": "owners",
+               "minH": 50,
+               "minW": 4,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 6,
+               "y": 20
+            },
+            {
+               "h": 20,
+               "i": "Image_2",
+               "minH": 1,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 86
+            },
+            {
+               "h": 60,
+               "i": "remediation_leads",
+               "minH": 50,
+               "minW": 4,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 113
+            },
+            {
+               "h": 60,
+               "i": "approvers",
+               "minH": 50,
+               "minW": 4,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 6,
+               "y": 107
+            }
+         ],
+         [
+            {
+               "h": 348,
+               "i": "action_plan_container",
+               "minH": 50,
+               "minW": 2,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 0
+            }
+         ],
+         [
+            {
+               "h": 20,
+               "i": "Image_3",
+               "minH": 1,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 60,
+               "i": "foundModels",
+               "minH": 50,
+               "minW": 4,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 21
+            },
+            {
+               "h": 60,
+               "i": "foundModelReviews",
+               "minH": 50,
+               "minW": 4,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 81
+            }
+         ],
+         [
+            {
+               "h": 20,
+               "i": "Image_4",
+               "minH": 1,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 345,
+               "i": "additional_comments",
+               "minH": 236,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 0,
+               "y": 20
+            },
+            {
+               "h": 392,
+               "i": "additional_documentation",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 4,
+               "y": 20
+            },
+            {
+               "h": 390,
+               "i": "additional_links",
+               "minH": 54,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 8,
+               "y": 21
+            }
+         ]
+      ],
+      "action_plan_container": [
+         [
+            {
+               "h": 50,
+               "i": "action_plan_created_on",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "action_plan_priority",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 0,
+               "y": 51
+            },
+            {
+               "h": 100,
+               "i": "action_plan_description",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 2,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "action_plan_due_on",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 5,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "action_plan_closed_on",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 5,
+               "y": 50
+            },
+            {
+               "h": 100,
+               "i": "action_plan_assessment",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 7,
+               "y": 0
+            }
+         ]
+      ],
+      "base": [
+         {
+            "h": 26,
+            "i": "save_button",
+            "minH": 26,
+            "minW": 1,
+            "moved": false,
+            "static": false,
+            "w": 1,
+            "x": 10,
+            "y": 0
+         },
+         {
+            "h": 26,
+            "i": "close_button",
+            "minH": 26,
+            "minW": 1,
+            "moved": false,
+            "static": false,
+            "w": 1,
+            "x": 11,
+            "y": 0
+         },
+         {
+            "h": 190,
+            "i": "classifications_accordion",
+            "minH": 50,
+            "minW": 2,
+            "moved": false,
+            "static": false,
+            "w": 12,
+            "x": 0,
+            "y": 37
+         },
+         {
+            "h": 566,
+            "i": "TabView",
+            "minH": 50,
+            "minW": 2,
+            "moved": false,
+            "static": false,
+            "w": 12,
+            "x": 0,
+            "y": 263
+         }
+      ],
+      "classifications_accordion": [
+         [
+            {
+               "h": 190,
+               "i": "classification",
+               "minH": 186,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 0
+            }
+         ]
+      ],
+      "details_container_center": [
+         [
+            {
+               "h": 50,
+               "i": "review_type",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 6,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "validation_activity",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 6,
+               "y": 51
+            },
+            {
+               "h": 50,
+               "i": "other_validation_activity",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 6,
+               "y": 102
+            },
+            {
+               "h": 50,
+               "i": "category",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 102
+            },
+            {
+               "h": 50,
+               "i": "severity_tier",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 51
+            },
+            {
+               "h": 50,
+               "i": "status",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 0
+            }
+         ]
+      ],
+      "details_container_left": [
+         [
+            {
+               "h": 50,
+               "i": "name",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 0,
+               "y": 52
+            },
+            {
+               "h": 101,
+               "i": "description",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 5,
+               "x": 4,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "creator",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 0,
+               "y": 102
+            },
+            {
+               "h": 50,
+               "i": "creationDate",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 3,
+               "x": 4,
+               "y": 102
+            },
+            {
+               "h": 50,
+               "i": "current_due_date",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 3,
+               "x": 9,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "original_due_date",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 3,
+               "x": 9,
+               "y": 51
+            },
+            {
+               "h": 50,
+               "i": "objectId",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 3,
+               "x": 0,
+               "y": 0
+            }
+         ]
+      ],
+      "details_container_right": [
+         [
+            {
+               "h": 51,
+               "i": "resolved_on",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 7,
+               "x": 0,
+               "y": 102
+            },
+            {
+               "h": 101,
+               "i": "recommended_resolution",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 11,
+               "x": 0,
+               "y": 0
+            }
+         ]
+      ]
+   },
+   "page": {
+      "entrypoints": {
+         "copy": {
+            "name": "onFindingCopyLoad"
+         },
+         "draft": {
+            "name": "onFindingDraftLoad"
+         },
+         "edit": {
+            "name": "onFindingEditLoad"
+         }
+      },
+      "events": {
+         "open": {
+            "name": "on Finding Load"
+         }
+      },
+      "props": {
+         "description": "The finding page contains issues discovered during various model governance tasks.",
+         "icon": "base://ISSUE",
+         "id": "Finding",
+         "label": "Finding"
+      }
+   },
+   "structure": {
+      "TabView": [
+         [
+            {
+               "compName": "GroupableContainer",
+               "id": "details_container_left",
+               "label": "appbuilder.toolboxitem.groupableContainer.title",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {
+                  "activeIndex": 0,
+                  "headers": [
+                     "default"
+                  ]
+               }
+            },
+            {
+               "compName": "GroupableContainer",
+               "id": "details_container_center",
+               "label": "appbuilder.toolboxitem.groupableContainer.title",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {
+                  "activeIndex": 0,
+                  "headers": [
+                     "default"
+                  ]
+               }
+            },
+            {
+               "compName": "GroupableContainer",
+               "id": "details_container_right",
+               "label": "appbuilder.toolboxitem.groupableContainer.title",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {
+                  "activeIndex": 0,
+                  "headers": [
+                     "default"
+                  ]
+               }
+            }
+         ],
+         [
+            {
+               "compName": "Image",
+               "id": "Image_1",
+               "label": "appbuilder.toolboxitem.image.title",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "RGFRelationshipContainer",
+               "fieldName": "initiator",
+               "id": "initiator",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "RGFRelationshipContainer",
+               "fieldName": "owners",
+               "id": "owners",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "Image",
+               "id": "Image_2",
+               "label": "appbuilder.toolboxitem.image.title",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "RGFRelationshipContainer",
+               "fieldName": "remediation_leads",
+               "id": "remediation_leads",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "RGFRelationshipContainer",
+               "fieldName": "approvers",
+               "id": "approvers",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            }
+         ],
+         [
+            {
+               "compName": "GroupableContainer",
+               "id": "action_plan_container",
+               "label": "appbuilder.toolboxitem.groupableContainer.title",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {
+                  "activeIndex": 0,
+                  "headers": [
+                     "default"
+                  ]
+               }
+            }
+         ],
+         [
+            {
+               "compName": "Image",
+               "id": "Image_3",
+               "label": "appbuilder.toolboxitem.image.title",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "RGFRelationshipContainer",
+               "events": {
+                  "getDraftLink": {
+                     "name": "getDraftLink"
+                  },
+                  "getEditLinkForObjectInstance": {
+                     "name": "getEditLinkForObjectInstance"
+                  }
+               },
+               "fieldName": "foundModels",
+               "id": "foundModels",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "RGFRelationshipContainer",
+               "events": {
+                  "getDraftLink": {
+                     "name": "getDraftLink"
+                  },
+                  "getEditLinkForObjectInstance": {
+                     "name": "getEditLinkForObjectInstance"
+                  }
+               },
+               "fieldName": "foundModelReviews",
+               "id": "foundModelReviews",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            }
+         ],
+         [
+            {
+               "compName": "Image",
+               "id": "Image_4",
+               "label": "appbuilder.toolboxitem.image.title",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "Comments",
+               "fieldName": "additional_comments",
+               "id": "additional_comments",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "RGFAttachments",
+               "fieldName": "additional_documentation",
+               "id": "additional_documentation",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "Links",
+               "fieldName": "additional_links",
+               "id": "additional_links",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            }
+         ]
+      ],
+      "action_plan_container": [
+         [
+            {
+               "compName": "Calendar",
+               "fieldName": "action_plan_created_on",
+               "id": "action_plan_created_on",
+               "libName": "base",
+               "parentId": "action_plan_container",
+               "props": {}
+            },
+            {
+               "compName": "ColorDropdown",
+               "fieldName": "action_plan_priority",
+               "id": "action_plan_priority",
+               "libName": "base",
+               "parentId": "action_plan_container",
+               "props": {}
+            },
+            {
+               "compName": "InputTextarea",
+               "fieldName": "action_plan_description",
+               "id": "action_plan_description",
+               "libName": "base",
+               "parentId": "action_plan_container",
+               "props": {
+                  "rows": 3
+               }
+            },
+            {
+               "compName": "Calendar",
+               "fieldName": "action_plan_due_on",
+               "id": "action_plan_due_on",
+               "libName": "base",
+               "parentId": "action_plan_container",
+               "props": {}
+            },
+            {
+               "compName": "Calendar",
+               "fieldName": "action_plan_closed_on",
+               "id": "action_plan_closed_on",
+               "libName": "base",
+               "parentId": "action_plan_container",
+               "props": {}
+            },
+            {
+               "compName": "InputTextarea",
+               "fieldName": "action_plan_assessment",
+               "id": "action_plan_assessment",
+               "libName": "base",
+               "parentId": "action_plan_container",
+               "props": {
+                  "rows": 3
+               }
+            }
+         ]
+      ],
+      "base": [
+         {
+            "compName": "Button",
+            "id": "save_button",
+            "label": "appbuilder.toolboxitem.button.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {}
+         },
+         {
+            "compName": "Button",
+            "id": "close_button",
+            "label": "appbuilder.toolboxitem.button.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {
+               "secondary": true
+            }
+         },
+         {
+            "compName": "Accordion",
+            "id": "classifications_accordion",
+            "label": "appbuilder.toolboxitem.accordion.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {}
+         },
+         {
+            "compName": "TabView",
+            "id": "TabView",
+            "label": "appbuilder.toolboxitem.tabview.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {
+               "activeIndex": 3
+            }
+         }
+      ],
+      "classifications_accordion": [
+         [
+            {
+               "compName": "RGFClassification",
+               "fieldName": "classification",
+               "id": "classification",
+               "libName": "base",
+               "parentId": "classifications_accordion",
+               "props": {}
+            }
+         ]
+      ],
+      "details_container_center": [
+         [
+            {
+               "compName": "Dropdown",
+               "fieldName": "review_type",
+               "id": "review_type",
+               "libName": "base",
+               "parentId": "details_container_center",
+               "props": {}
+            },
+            {
+               "compName": "Dropdown",
+               "fieldName": "validation_activity",
+               "id": "validation_activity",
+               "libName": "base",
+               "parentId": "details_container_center",
+               "props": {}
+            },
+            {
+               "compName": "InputText",
+               "fieldName": "other_validation_activity",
+               "id": "other_validation_activity",
+               "libName": "base",
+               "parentId": "details_container_center",
+               "props": {}
+            },
+            {
+               "compName": "Dropdown",
+               "fieldName": "category",
+               "id": "category",
+               "libName": "base",
+               "parentId": "details_container_center",
+               "props": {}
+            },
+            {
+               "compName": "ColorDropdown",
+               "fieldName": "severity_tier",
+               "id": "severity_tier",
+               "libName": "base",
+               "parentId": "details_container_center",
+               "props": {}
+            },
+            {
+               "compName": "Dropdown",
+               "fieldName": "status",
+               "id": "status",
+               "libName": "base",
+               "parentId": "details_container_center",
+               "props": {}
+            }
+         ]
+      ],
+      "details_container_left": [
+         [
+            {
+               "compName": "InputText",
+               "fieldName": "name",
+               "id": "name",
+               "libName": "base",
+               "parentId": "details_container_left",
+               "props": {}
+            },
+            {
+               "compName": "InputTextarea",
+               "fieldName": "description",
+               "id": "description",
+               "libName": "base",
+               "parentId": "details_container_left",
+               "props": {
+                  "rows": 3
+               }
+            },
+            {
+               "compName": "InputText",
+               "fieldName": "creator",
+               "id": "creator",
+               "libName": "base",
+               "parentId": "details_container_left",
+               "props": {}
+            },
+            {
+               "compName": "Calendar",
+               "fieldName": "creationDate",
+               "id": "creationDate",
+               "libName": "base",
+               "parentId": "details_container_left",
+               "props": {}
+            },
+            {
+               "compName": "Calendar",
+               "fieldName": "current_due_date",
+               "id": "current_due_date",
+               "libName": "base",
+               "parentId": "details_container_left",
+               "props": {}
+            },
+            {
+               "compName": "Calendar",
+               "fieldName": "original_due_date",
+               "id": "original_due_date",
+               "libName": "base",
+               "parentId": "details_container_left",
+               "props": {}
+            },
+            {
+               "compName": "InputText",
+               "fieldName": "objectId",
+               "id": "objectId",
+               "libName": "base",
+               "parentId": "details_container_left",
+               "props": {}
+            }
+         ]
+      ],
+      "details_container_right": [
+         [
+            {
+               "compName": "Calendar",
+               "fieldName": "resolved_on",
+               "id": "resolved_on",
+               "libName": "base",
+               "parentId": "details_container_right",
+               "props": {}
+            },
+            {
+               "compName": "InputTextarea",
+               "fieldName": "recommended_resolution",
+               "id": "recommended_resolution",
+               "libName": "base",
+               "parentId": "details_container_right",
+               "props": {
+                  "rows": 3
+               }
+            }
+         ]
+      ]
+   }
+}

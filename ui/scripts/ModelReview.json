@@ -1,0 +1,231 @@
+{
+   "onModelReviewCopyLoad": {
+      "inputs": [
+         {
+            "datatype": "numeric",
+            "name": "input_key"
+         }
+      ],
+      "logic": []
+   },
+   "onModelReviewDraftLoad": {
+      "inputs": [
+         {
+            "datatype": "numeric",
+            "name": "input_id"
+         }
+      ],
+      "logic": [
+         {
+            "action": "setvar",
+            "id": "4c4d97a9-2772-440d-97c6-66ad601c097e",
+            "type": "calculated",
+            "value": {
+               "function": "loadDraftObject",
+               "library": "CirrusMRM",
+               "params": {},
+               "returnType": "All Data"
+            },
+            "variable": {
+               "datatype": "All Data",
+               "name": "data",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "execfunc",
+            "function": "loadData",
+            "id": "1e0d034d-a382-4da6-b892-509bdc8ff6a1",
+            "library": "CirrusLibXYZ",
+            "params": {
+               "data": {
+                  "datatype": "All Data",
+                  "name": "data",
+                  "scope": "local"
+               }
+            }
+         }
+      ]
+   },
+   "onModelReviewEditLoad": {
+      "inputs": [
+         {
+            "datatype": "text",
+            "name": "input_key"
+         }
+      ],
+      "logic": [
+         {
+            "action": "setvar",
+            "id": "3da56d8f-f6e7-4386-b5d2-63d9424c4430",
+            "type": "calculated",
+            "value": {
+               "function": "loadExistingObject",
+               "library": "CirrusMRM",
+               "params": {
+                  "key": {
+                     "datatype": "text",
+                     "name": "input_key",
+                     "scope": "local"
+                  }
+               },
+               "returnType": "All Data"
+            },
+            "variable": {
+               "datatype": "All Data",
+               "name": "data",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "execfunc",
+            "function": "loadData",
+            "id": "44f38ed3-a668-4d4c-9713-dddaca98005b",
+            "library": "CirrusLibXYZ",
+            "params": {
+               "data": {
+                  "datatype": "All Data",
+                  "name": "data",
+                  "scope": "local"
+               }
+            }
+         }
+      ]
+   },
+   "readOnlyFields": {
+      "inputs": [],
+      "logic": [
+         {
+            "action": "setvar",
+            "id": "b4353af0-26ea-4cc0-9f0d-7c656177ce42",
+            "type": "fixed",
+            "value": {
+               "datatype": "boolean",
+               "dataval": "true"
+            },
+            "variable": {
+               "datatype": "boolean",
+               "name": "isReadOnlyAlways",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "setprop",
+            "function": "setReadOnly",
+            "id": "5906532e-a315-4a7a-8c0c-2735b9f44acc",
+            "params": {
+               "readOnly": {
+                  "datatype": "boolean",
+                  "name": "isReadOnlyAlways",
+                  "scope": "local"
+               }
+            },
+            "scope": "currentPage",
+            "widgetId": "objectId"
+         }
+      ]
+   },
+   "requiredFields": {
+      "inputs": [],
+      "logic": [
+         {
+            "action": "setvar",
+            "id": "c467ec2e-2037-4fa8-9410-ca02ab65d371",
+            "type": "fixed",
+            "value": {
+               "datatype": "boolean",
+               "dataval": "true"
+            },
+            "variable": {
+               "datatype": "boolean",
+               "name": "isRequiredAlways",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "setprop",
+            "function": "setRequired",
+            "id": "355216b4-67b2-4528-9c0b-aaeeb783bb32",
+            "params": {
+               "required": {
+                  "datatype": "boolean",
+                  "name": "isRequiredAlways",
+                  "scope": "local"
+               }
+            },
+            "scope": "currentPage",
+            "widgetId": "name"
+         },
+         {
+            "action": "setprop",
+            "function": "setRequired",
+            "id": "1c9f4de9-03f5-4fa3-bc3d-8943e2198f40",
+            "params": {
+               "required": {
+                  "datatype": "boolean",
+                  "name": "isRequiredAlways",
+                  "scope": "local"
+               }
+            },
+            "scope": "currentPage",
+            "widgetId": "classification"
+         },
+         {
+            "action": "setprop",
+            "function": "setRequired",
+            "id": "fb858532-245e-45c3-942e-ca7c74b36af3",
+            "params": {
+               "required": {
+                  "datatype": "boolean",
+                  "name": "isRequiredAlways",
+                  "scope": "local"
+               }
+            },
+            "scope": "currentPage",
+            "widgetId": "plannedStartDt"
+         },
+         {
+            "action": "setprop",
+            "function": "setRequired",
+            "id": "4e9c27f4-f174-4117-a66e-192f8c2b99b9",
+            "params": {
+               "required": {
+                  "datatype": "boolean",
+                  "name": "isRequiredAlways",
+                  "scope": "local"
+               }
+            },
+            "scope": "currentPage",
+            "widgetId": "plannedEndDt"
+         },
+         {
+            "action": "setprop",
+            "function": "setRequired",
+            "id": "7327d946-f4b9-4343-afc9-3d80c1036f90",
+            "params": {
+               "required": {
+                  "datatype": "boolean",
+                  "name": "isRequiredAlways",
+                  "scope": "local"
+               }
+            },
+            "scope": "currentPage",
+            "widgetId": "modelTeam"
+         },
+         {
+            "action": "setprop",
+            "function": "setRequired",
+            "id": "78e90198-45f2-4cfc-a6f3-ff73f19dcb53",
+            "params": {
+               "required": {
+                  "datatype": "boolean",
+                  "name": "isRequiredAlways",
+                  "scope": "local"
+               }
+            },
+            "scope": "currentPage",
+            "widgetId": "linked_Models"
+         }
+      ]
+   }
+}

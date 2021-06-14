@@ -1,0 +1,181 @@
+{
+   "getDraftLink": {
+      "inputs": [
+         {
+            "datatype": "text",
+            "name": "input_objectType"
+         }
+      ],
+      "logic": [
+         {
+            "action": "setvar",
+            "id": "d2c4e600-3994-4960-bc2b-5043510cf0e9",
+            "type": "calculated",
+            "value": {
+               "function": "getDraftLocation",
+               "library": "CirrusMRM",
+               "params": {
+                  "objectType": {
+                     "datatype": "text",
+                     "name": "input_objectType",
+                     "scope": "local"
+                  }
+               },
+               "returnType": "text"
+            },
+            "variable": {
+               "datatype": "text",
+               "name": "navLink",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "returnvar",
+            "id": "2ee349ad-a685-4ea7-bcb0-1fb2adc0a781",
+            "variable": {
+               "datatype": "text",
+               "name": "navLink",
+               "scope": "local"
+            }
+         }
+      ]
+   },
+   "getEditLinkForObjectInstance": {
+      "inputs": [
+         {
+            "datatype": "text",
+            "name": "input_objectType"
+         },
+         {
+            "datatype": "text",
+            "name": "input_key"
+         }
+      ],
+      "logic": [
+         {
+            "action": "setvar",
+            "id": "56bb8f74-6985-454a-807a-cf22026ef13d",
+            "type": "calculated",
+            "value": {
+               "function": "getEditLocation",
+               "library": "CirrusMRM",
+               "params": {
+                  "key": {
+                     "datatype": "text",
+                     "name": "input_key",
+                     "scope": "local"
+                  },
+                  "objectType": {
+                     "datatype": "text",
+                     "name": "input_objectType",
+                     "scope": "local"
+                  }
+               },
+               "returnType": "text"
+            },
+            "variable": {
+               "datatype": "text",
+               "name": "navLink",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "returnvar",
+            "id": "ae065b43-0bd2-440b-9266-cdb51dd720ed",
+            "variable": {
+               "datatype": "text",
+               "name": "navLink",
+               "scope": "local"
+            }
+         }
+      ]
+   },
+   "onFindingCopyLoad": {
+      "inputs": [],
+      "logic": []
+   },
+   "onFindingDraftLoad": {
+      "inputs": [
+         {
+            "datatype": "numeric",
+            "name": "input_id"
+         }
+      ],
+      "logic": [
+         {
+            "action": "setvar",
+            "id": "936e2e39-875d-44eb-a8ed-dede7993d879",
+            "type": "calculated",
+            "value": {
+               "function": "loadDraftObject",
+               "library": "CirrusMRM",
+               "params": {},
+               "returnType": "All Data"
+            },
+            "variable": {
+               "datatype": "All Data",
+               "name": "data",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "execfunc",
+            "function": "loadData",
+            "id": "5caf91c3-9f28-488b-8a2a-aa51c488c907",
+            "library": "CirrusLibXYZ",
+            "params": {
+               "data": {
+                  "datatype": "All Data",
+                  "name": "data",
+                  "scope": "local"
+               }
+            }
+         }
+      ]
+   },
+   "onFindingEditLoad": {
+      "inputs": [
+         {
+            "datatype": "text",
+            "name": "input_key"
+         }
+      ],
+      "logic": [
+         {
+            "action": "setvar",
+            "id": "e9ece575-db58-4736-8861-c06993c14b5d",
+            "type": "calculated",
+            "value": {
+               "function": "loadExistingObject",
+               "library": "CirrusMRM",
+               "params": {
+                  "key": {
+                     "datatype": "text",
+                     "name": "input_key",
+                     "scope": "local"
+                  }
+               },
+               "returnType": "All Data"
+            },
+            "variable": {
+               "datatype": "All Data",
+               "name": "data",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "execfunc",
+            "function": "loadData",
+            "id": "58f4f1b0-7f06-4fd2-a5e4-12616017c382",
+            "library": "CirrusLibXYZ",
+            "params": {
+               "data": {
+                  "datatype": "All Data",
+                  "name": "data",
+                  "scope": "local"
+               }
+            }
+         }
+      ]
+   }
+}

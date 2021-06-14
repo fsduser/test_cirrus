@@ -1,0 +1,59 @@
+{
+   "layouts": {
+      "base": [
+         {
+            "h": 50,
+            "i": "name",
+            "moved": false,
+            "static": false,
+            "w": 3,
+            "x": 0,
+            "y": 176
+         },
+         {
+            "h": 50,
+            "i": "modelVersion",
+            "moved": false,
+            "static": false,
+            "w": 2,
+            "x": 3,
+            "y": 226
+         }
+      ]
+   },
+   "page": {
+      "entrypoints": {
+         "onPageLoad": {}
+      },
+      "events": {
+         "onTabClose": {}
+      },
+      "props": {
+         "description": "",
+         "icon": "",
+         "id": "ModelTemplate",
+         "label": "Model Template"
+      }
+   },
+   "structure": {
+      "base": [
+         {
+            "compName": "InputText",
+            "events": {},
+            "fieldName": "name",
+            "id": "name",
+            "libName": "base",
+            "parentId": "base",
+            "props": {}
+         },
+         {
+            "compName": "InputText",
+            "fieldName": "modelVersion",
+            "id": "modelVersion",
+            "libName": "base",
+            "parentId": "base",
+            "props": {}
+         }
+      ]
+   }
+}

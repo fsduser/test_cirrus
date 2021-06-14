@@ -1,0 +1,923 @@
+{
+   "layouts": {
+      "GroupableContainer": [
+         [
+            {
+               "h": 50,
+               "i": "objectId",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 3,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "version",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 3,
+               "x": 3,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "name",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 52
+            },
+            {
+               "h": 52,
+               "i": "source_model_name",
+               "minH": 50,
+               "minW": 3,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 102
+            },
+            {
+               "h": 26,
+               "i": "OverlayButton",
+               "minH": 26,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 6,
+               "y": 20
+            },
+            {
+               "h": 102,
+               "i": "description",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 6,
+               "y": 52
+            }
+         ]
+      ],
+      "base": [
+         {
+            "h": 10,
+            "i": "Image_3",
+            "minH": 1,
+            "minW": 1,
+            "moved": false,
+            "static": false,
+            "w": 12,
+            "x": 0,
+            "y": 586
+         },
+         {
+            "h": 200,
+            "i": "ModelWellness",
+            "minH": 30,
+            "minW": 1,
+            "moved": false,
+            "static": false,
+            "w": 3,
+            "x": 9,
+            "y": 0
+         },
+         {
+            "h": 70,
+            "i": "upstream_models",
+            "minH": 50,
+            "minW": 4,
+            "moved": false,
+            "static": false,
+            "w": 12,
+            "x": 0,
+            "y": 676
+         },
+         {
+            "h": 75,
+            "i": "downstream_models",
+            "minH": 50,
+            "minW": 4,
+            "moved": false,
+            "static": false,
+            "w": 12,
+            "x": 0,
+            "y": 747
+         },
+         {
+            "h": 10,
+            "i": "Image_2",
+            "minH": 1,
+            "minW": 1,
+            "moved": false,
+            "static": false,
+            "w": 12,
+            "x": 0,
+            "y": 238
+         },
+         {
+            "h": 50,
+            "i": "blank_line_container_scores",
+            "minH": 50,
+            "minW": 2,
+            "moved": false,
+            "static": false,
+            "w": 12,
+            "x": 0,
+            "y": 257
+         },
+         {
+            "h": 10,
+            "i": "Image_5",
+            "minH": 1,
+            "minW": 1,
+            "moved": false,
+            "static": false,
+            "w": 12,
+            "x": 0,
+            "y": 315
+         },
+         {
+            "h": 50,
+            "i": "blank_line_container_dependencies",
+            "minH": 50,
+            "minW": 2,
+            "moved": false,
+            "static": false,
+            "w": 12,
+            "x": 0,
+            "y": 601
+         },
+         {
+            "h": 10,
+            "i": "Image_6",
+            "minH": 1,
+            "minW": 1,
+            "moved": false,
+            "static": false,
+            "w": 12,
+            "x": 0,
+            "y": 658
+         },
+         {
+            "h": 237,
+            "i": "risk_container",
+            "minH": 50,
+            "minW": 2,
+            "moved": false,
+            "static": false,
+            "w": 5,
+            "x": 0,
+            "y": 338
+         },
+         {
+            "h": 237,
+            "i": "validation_container",
+            "minH": 50,
+            "minW": 2,
+            "moved": false,
+            "static": false,
+            "w": 4,
+            "x": 5,
+            "y": 338
+         },
+         {
+            "h": 237,
+            "i": "owner_container",
+            "minH": 50,
+            "minW": 2,
+            "moved": false,
+            "static": false,
+            "w": 3,
+            "x": 9,
+            "y": 338
+         },
+         {
+            "h": 200,
+            "i": "GroupableContainer",
+            "minH": 50,
+            "minW": 2,
+            "moved": false,
+            "static": false,
+            "w": 5,
+            "x": 0,
+            "y": 0
+         },
+         {
+            "h": 200,
+            "i": "model_usage_container",
+            "minH": 50,
+            "minW": 2,
+            "moved": false,
+            "static": false,
+            "w": 4,
+            "x": 5,
+            "y": 0
+         }
+      ],
+      "blank_line_container_dependencies": [
+         [
+            {
+               "h": 1,
+               "i": "Image_1",
+               "minH": 1,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 9
+            }
+         ]
+      ],
+      "blank_line_container_scores": [
+         [
+            {
+               "h": 1,
+               "i": "Image_4",
+               "minH": 1,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 0
+            }
+         ]
+      ],
+      "model_usage_container": [
+         [
+            {
+               "h": 50,
+               "i": "criticality",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "materiality",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 52
+            },
+            {
+               "h": 50,
+               "i": "modelStatus",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 102
+            },
+            {
+               "h": 152,
+               "i": "model_usage_details",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 6,
+               "y": 0
+            }
+         ]
+      ],
+      "owner_container": [
+         [
+            {
+               "h": 101,
+               "i": "owner_notes",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "primary_contact",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 9,
+               "x": 0,
+               "y": 102
+            }
+         ]
+      ],
+      "risk_container": [
+         [
+            {
+               "h": 50,
+               "i": "latest_risk_assessment",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "inherent_risk_rating",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 51
+            },
+            {
+               "h": 50,
+               "i": "residual_risk_rating",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 103
+            },
+            {
+               "h": 50,
+               "i": "risk_tier",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 6,
+               "y": 51
+            },
+            {
+               "h": 50,
+               "i": "control_score",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 6,
+               "y": 103
+            }
+         ]
+      ],
+      "validation_container": [
+         [
+            {
+               "h": 50,
+               "i": "latest_validation",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "next_validation",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 6,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "latest_validation_rating",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 51
+            },
+            {
+               "h": 50,
+               "i": "latest_attestation",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 103
+            },
+            {
+               "h": 50,
+               "i": "days_since_last_validation",
+               "minH": 24,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 6,
+               "y": 51
+            }
+         ]
+      ]
+   },
+   "page": {
+      "entrypoints": {
+         "onPageLoad": {
+            "name": "onDraftLoad"
+         }
+      },
+      "events": {
+         "onTabClose": {}
+      },
+      "props": {
+         "description": "",
+         "icon": "base://MODEL",
+         "id": "ModelScorecard",
+         "label": "Model Scorecard"
+      }
+   },
+   "structure": {
+      "GroupableContainer": [
+         [
+            {
+               "compName": "InputText",
+               "fieldName": "objectId",
+               "id": "objectId",
+               "libName": "base",
+               "parentId": "GroupableContainer",
+               "props": {}
+            },
+            {
+               "compName": "InputText",
+               "fieldName": "version",
+               "id": "version",
+               "libName": "base",
+               "parentId": "GroupableContainer",
+               "props": {}
+            },
+            {
+               "compName": "InputText",
+               "fieldName": "name",
+               "id": "name",
+               "libName": "base",
+               "parentId": "GroupableContainer",
+               "props": {}
+            },
+            {
+               "compName": "ModelRepositorySelector",
+               "fieldName": "source_model_name",
+               "id": "source_model_name",
+               "libName": "base",
+               "parentId": "GroupableContainer",
+               "props": {}
+            },
+            {
+               "compName": "OverlayButton",
+               "events": {},
+               "id": "OverlayButton",
+               "label": "appbuilder.toolboxitem.overlaybutton.title",
+               "libName": "base",
+               "parentId": "GroupableContainer",
+               "props": {
+                  "height": "200",
+                  "href": "/OverlayWarning?mode=card",
+                  "imageUri": "base://importantStatus",
+                  "width": "800"
+               }
+            },
+            {
+               "compName": "InputTextarea",
+               "fieldName": "description",
+               "id": "description",
+               "libName": "base",
+               "parentId": "GroupableContainer",
+               "props": {
+                  "rows": 3
+               }
+            }
+         ]
+      ],
+      "base": [
+         {
+            "compName": "Image",
+            "id": "Image_3",
+            "label": "appbuilder.toolboxitem.image.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {}
+         },
+         {
+            "compName": "ModelWellness",
+            "id": "ModelWellness",
+            "label": "appbuilder.toolboxitem.modelwellness.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {
+               "segmentsConfig": [
+                  {
+                     "config": [
+                        {
+                           "color": "15B57B",
+                           "label": "Good",
+                           "value": "GOOD"
+                        },
+                        {
+                           "color": "FFCC32",
+                           "label": "Fair",
+                           "value": "FAIR"
+                        },
+                        {
+                           "color": "DD5757",
+                           "label": "Poor",
+                           "value": "POOR"
+                        }
+                     ],
+                     "id": "model_owner_vote"
+                  },
+                  {
+                     "config": [
+                        {
+                           "color": "15B57B",
+                           "label": "Good",
+                           "value": "GOOD"
+                        },
+                        {
+                           "color": "FFCC32",
+                           "label": "Fair",
+                           "value": "FAIR"
+                        },
+                        {
+                           "color": "DD5757",
+                           "label": "Poor",
+                           "value": "POOR"
+                        }
+                     ],
+                     "id": "mrmg_vote"
+                  },
+                  {
+                     "config": [
+                        {
+                           "color": "15B57B",
+                           "label": "Good",
+                           "value": "GOOD"
+                        },
+                        {
+                           "color": "FFCC32",
+                           "label": "Fair",
+                           "value": "FAIR"
+                        },
+                        {
+                           "color": "DD5757",
+                           "label": "Poor",
+                           "value": "POOR"
+                        }
+                     ],
+                     "id": "audit_vote"
+                  }
+               ]
+            }
+         },
+         {
+            "compName": "RGFRelationshipContainer",
+            "fieldName": "upstream_models",
+            "id": "upstream_models",
+            "libName": "base",
+            "parentId": "base",
+            "props": {}
+         },
+         {
+            "compName": "RGFRelationshipContainer",
+            "fieldName": "downstream_models",
+            "id": "downstream_models",
+            "libName": "base",
+            "parentId": "base",
+            "props": {}
+         },
+         {
+            "compName": "Image",
+            "id": "Image_2",
+            "label": "appbuilder.toolboxitem.image.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {}
+         },
+         {
+            "compName": "GroupableContainer",
+            "id": "blank_line_container_scores",
+            "label": "appbuilder.toolboxitem.groupableContainer.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {
+               "activeIndex": 0,
+               "headers": [
+                  "default"
+               ]
+            }
+         },
+         {
+            "compName": "Image",
+            "id": "Image_5",
+            "label": "appbuilder.toolboxitem.image.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {}
+         },
+         {
+            "compName": "GroupableContainer",
+            "id": "blank_line_container_dependencies",
+            "label": "appbuilder.toolboxitem.groupableContainer.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {
+               "activeIndex": 0,
+               "headers": [
+                  "default"
+               ]
+            }
+         },
+         {
+            "compName": "Image",
+            "id": "Image_6",
+            "label": "appbuilder.toolboxitem.image.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {}
+         },
+         {
+            "compName": "GroupableContainer",
+            "id": "risk_container",
+            "label": "appbuilder.toolboxitem.groupableContainer.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {
+               "activeIndex": 0,
+               "headers": [
+                  "default"
+               ]
+            }
+         },
+         {
+            "compName": "GroupableContainer",
+            "id": "validation_container",
+            "label": "appbuilder.toolboxitem.groupableContainer.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {
+               "activeIndex": 0,
+               "headers": [
+                  "default"
+               ]
+            }
+         },
+         {
+            "compName": "GroupableContainer",
+            "id": "owner_container",
+            "label": "appbuilder.toolboxitem.groupableContainer.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {
+               "activeIndex": 0,
+               "headers": [
+                  "default"
+               ]
+            }
+         },
+         {
+            "compName": "GroupableContainer",
+            "id": "GroupableContainer",
+            "label": "appbuilder.toolboxitem.groupableContainer.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {
+               "activeIndex": 0,
+               "headers": [
+                  "default"
+               ]
+            }
+         },
+         {
+            "compName": "GroupableContainer",
+            "id": "model_usage_container",
+            "label": "appbuilder.toolboxitem.groupableContainer.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {
+               "activeIndex": 0,
+               "headers": [
+                  "default"
+               ]
+            }
+         }
+      ],
+      "blank_line_container_dependencies": [
+         [
+            {
+               "compName": "Image",
+               "id": "Image_1",
+               "label": "appbuilder.toolboxitem.image.title",
+               "libName": "base",
+               "parentId": "blank_line_container_dependencies",
+               "props": {
+                  "background": "ced2d9"
+               }
+            }
+         ]
+      ],
+      "blank_line_container_scores": [
+         [
+            {
+               "compName": "Image",
+               "id": "Image_4",
+               "label": "appbuilder.toolboxitem.image.title",
+               "libName": "base",
+               "parentId": "blank_line_container_scores",
+               "props": {
+                  "background": "ced2d9"
+               }
+            }
+         ]
+      ],
+      "model_usage_container": [
+         [
+            {
+               "compName": "ColorDropdown",
+               "fieldName": "criticality",
+               "id": "criticality",
+               "libName": "base",
+               "parentId": "model_usage_container",
+               "props": {}
+            },
+            {
+               "compName": "ColorDropdown",
+               "fieldName": "materiality",
+               "id": "materiality",
+               "libName": "base",
+               "parentId": "model_usage_container",
+               "props": {}
+            },
+            {
+               "compName": "Dropdown",
+               "fieldName": "modelStatus",
+               "id": "modelStatus",
+               "libName": "base",
+               "parentId": "model_usage_container",
+               "props": {}
+            },
+            {
+               "compName": "InputTextarea",
+               "fieldName": "model_usage_details",
+               "id": "model_usage_details",
+               "libName": "base",
+               "parentId": "model_usage_container",
+               "props": {
+                  "rows": 3
+               }
+            }
+         ]
+      ],
+      "owner_container": [
+         [
+            {
+               "compName": "InputTextarea",
+               "fieldName": "owner_notes",
+               "id": "owner_notes",
+               "libName": "base",
+               "parentId": "owner_container",
+               "props": {
+                  "rows": 3
+               }
+            },
+            {
+               "compName": "InputText",
+               "fieldName": "primary_contact",
+               "id": "primary_contact",
+               "libName": "base",
+               "parentId": "owner_container",
+               "props": {}
+            }
+         ]
+      ],
+      "risk_container": [
+         [
+            {
+               "compName": "Calendar",
+               "fieldName": "latest_risk_assessment",
+               "id": "latest_risk_assessment",
+               "libName": "base",
+               "parentId": "risk_container",
+               "props": {}
+            },
+            {
+               "compName": "ColorDropdown",
+               "fieldName": "inherent_risk_rating",
+               "id": "inherent_risk_rating",
+               "libName": "base",
+               "parentId": "risk_container",
+               "props": {}
+            },
+            {
+               "compName": "ColorDropdown",
+               "fieldName": "residual_risk_rating",
+               "id": "residual_risk_rating",
+               "libName": "base",
+               "parentId": "risk_container",
+               "props": {}
+            },
+            {
+               "compName": "ColorDropdown",
+               "fieldName": "risk_tier",
+               "id": "risk_tier",
+               "libName": "base",
+               "parentId": "risk_container",
+               "props": {}
+            },
+            {
+               "compName": "ColorDropdown",
+               "fieldName": "control_score",
+               "id": "control_score",
+               "libName": "base",
+               "parentId": "risk_container",
+               "props": {}
+            }
+         ]
+      ],
+      "validation_container": [
+         [
+            {
+               "compName": "Calendar",
+               "events": {
+                  "onChange": {
+                     "name": "onLatestValidationChange"
+                  }
+               },
+               "fieldName": "latest_validation",
+               "id": "latest_validation",
+               "libName": "base",
+               "parentId": "validation_container",
+               "props": {}
+            },
+            {
+               "compName": "Calendar",
+               "fieldName": "next_validation",
+               "id": "next_validation",
+               "libName": "base",
+               "parentId": "validation_container",
+               "props": {}
+            },
+            {
+               "compName": "ColorDropdown",
+               "fieldName": "latest_validation_rating",
+               "id": "latest_validation_rating",
+               "libName": "base",
+               "parentId": "validation_container",
+               "props": {}
+            },
+            {
+               "compName": "Calendar",
+               "fieldName": "latest_attestation",
+               "id": "latest_attestation",
+               "libName": "base",
+               "parentId": "validation_container",
+               "props": {}
+            },
+            {
+               "compName": "ReadonlyFieldWidget",
+               "id": "days_since_last_validation",
+               "label": "appbuilder.toolboxitem.readonlyfield.title",
+               "libName": "base",
+               "parentId": "validation_container",
+               "props": {}
+            }
+         ]
+      ]
+   }
+}

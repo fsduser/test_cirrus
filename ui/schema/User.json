@@ -1,0 +1,228 @@
+{
+   "apiName": "users",
+   "bulkAPI": true,
+   "fields": {
+      "id": {
+         "id": "id",
+         "label": "ID",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "name": {
+         "id": "name",
+         "label": "Name",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      }
+   },
+   "id": "User",
+   "relationships": {
+      "finding_approver": {
+         "cardinality": "many",
+         "label": "Approved findings",
+         "sourceLabel": "Finding approved",
+         "sourceLabelPlural": "Findings approved",
+         "sourceName": "findings_approved",
+         "sourceType": "Finding",
+         "targetLabel": "Approver",
+         "targetLabelPlural": "Approvers",
+         "targetName": "approvers",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "finding_initiator": {
+         "cardinality": "many",
+         "label": "Initiated findings",
+         "sourceLabel": "Finding initiated",
+         "sourceLabelPlural": "Findings initiated",
+         "sourceName": "findings_initiated",
+         "sourceType": "Finding",
+         "targetLabel": "Initiator",
+         "targetLabelPlural": "Initiators",
+         "targetName": "initiator",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "finding_lead": {
+         "cardinality": "many",
+         "label": "Findings remediated",
+         "sourceLabel": "Finding remediated",
+         "sourceLabelPlural": "Findings remediated",
+         "sourceName": "findings_remediated",
+         "sourceType": "Finding",
+         "targetLabel": "Remediation lead",
+         "targetLabelPlural": "Remediation leads",
+         "targetName": "remediation_leads",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "finding_owner": {
+         "cardinality": "many",
+         "sourceLabel": "Finding owned",
+         "sourceLabelPlural": "Findings owned",
+         "sourceName": "findings_owned",
+         "sourceType": "Finding",
+         "targetLabel": "Owner",
+         "targetLabelPlural": "Owners",
+         "targetName": "owners",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "modelReview_modelTeam": {
+         "cardinality": "many",
+         "label": "Model Reviews",
+         "sourceLabel": "Model Review",
+         "sourceLabelPlural": "Model Reviews",
+         "sourceName": "modelreviewTeam",
+         "sourceType": "ModelReview",
+         "targetLabel": "Modeling Team",
+         "targetLabelPlural": "Modeling Team",
+         "targetName": "modelTeam",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "modelReview_mrmg": {
+         "cardinality": "many",
+         "label": "Model Reviews MRMG",
+         "sourceLabel": "Model Review MRMG",
+         "sourceLabelPlural": "Model Reviews MRMG",
+         "sourceName": "modelreviewMRMG",
+         "sourceType": "ModelReview",
+         "targetLabel": "MRMG Team",
+         "targetLabelPlural": "MRMG Team",
+         "targetName": "mrmgUsers",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "modelReview_validator": {
+         "cardinality": "many",
+         "sourceLabel": "Model Review Validation",
+         "sourceLabelPlural": "Model Review Validations",
+         "sourceName": "validatedModelReviews",
+         "sourceType": "ModelReview",
+         "targetLabel": "Model Validator",
+         "targetLabelPlural": "Model Validators",
+         "targetName": "validators",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "model_auditor": {
+         "cardinality": "many",
+         "label": "Audited models",
+         "sourceLabel": "Model audited",
+         "sourceLabelPlural": "Models audited",
+         "sourceName": "auditingModels",
+         "sourceType": "Model",
+         "targetLabel": "Auditor",
+         "targetLabelPlural": "Audit team",
+         "targetName": "auditors",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "model_developer": {
+         "cardinality": "many",
+         "label": "Models developed",
+         "sourceLabel": "Model developed",
+         "sourceLabelPlural": "Models developed",
+         "sourceName": "modelsDeveloped",
+         "sourceType": "Model",
+         "targetLabel": "Model developer",
+         "targetLabelPlural": "Model developers",
+         "targetName": "developers",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "model_mrmg": {
+         "cardinality": "many",
+         "label": "Models MRMG",
+         "sourceLabel": "Model managed",
+         "sourceLabelPlural": "Models managed",
+         "sourceName": "modelMRMG",
+         "sourceType": "Model",
+         "targetLabel": "Model risk management group member",
+         "targetLabelPlural": "Model risk management group",
+         "targetName": "mrmgUsers",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "model_owner": {
+         "cardinality": "many",
+         "label": "Models owned",
+         "sourceLabel": "Model owned",
+         "sourceLabelPlural": "Models owned",
+         "sourceName": "modelsOwned",
+         "sourceType": "Model",
+         "targetLabel": "Model owner",
+         "targetLabelPlural": "Model owners",
+         "targetName": "owners",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "model_user": {
+         "cardinality": "many",
+         "label": "Used models",
+         "sourceLabel": "Model used",
+         "sourceLabelPlural": "Models used",
+         "sourceName": "modelsUsed",
+         "sourceType": "Model",
+         "targetLabel": "Model user",
+         "targetLabelPlural": "Model users",
+         "targetName": "modelUsers",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "model_valLead": {
+         "cardinality": "many",
+         "label": "Validating models as a leader",
+         "sourceLabel": "Validated model as a leader",
+         "sourceLabelPlural": "Validated models as a leader",
+         "sourceName": "leadValidatingModels",
+         "sourceType": "Model",
+         "targetLabel": "Validation lead",
+         "targetLabelPlural": "Validation leads",
+         "targetName": "validationLeads",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "model_validator": {
+         "cardinality": "many",
+         "label": "Validated models",
+         "sourceLabel": "Model validated",
+         "sourceLabelPlural": "Models validated",
+         "sourceName": "validatingModels",
+         "sourceType": "Model",
+         "targetLabel": "Model validator",
+         "targetLabelPlural": "Model validators",
+         "targetName": "validators",
+         "targetType": "User",
+         "type": "lookup"
+      }
+   },
+   "searchable": true,
+   "security": {
+      "actions": {
+         "edit": false,
+         "execute": false,
+         "view": true
+      },
+      "allowSharing": true,
+      "useHierarchy": true
+   },
+   "streamAPI": true
+}

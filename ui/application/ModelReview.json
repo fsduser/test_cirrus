@@ -1,0 +1,855 @@
+{
+   "layouts": {
+      "Accordion": [
+         [
+            {
+               "h": 186,
+               "i": "classification",
+               "minH": 186,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 0
+            }
+         ]
+      ],
+      "GroupableContainer": [
+         [
+            {
+               "h": 52,
+               "i": "objectId",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 1,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 57,
+               "i": "name",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 3,
+               "x": 0,
+               "y": 59
+            },
+            {
+               "h": 143,
+               "i": "description",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 5,
+               "x": 0,
+               "y": 119
+            },
+            {
+               "h": 50,
+               "i": "plannedStartDt",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 7,
+               "y": 2
+            },
+            {
+               "h": 50,
+               "i": "plannedEndDt",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 7,
+               "y": 60
+            },
+            {
+               "h": 50,
+               "i": "actualStartDt",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 7,
+               "y": 127
+            },
+            {
+               "h": 50,
+               "i": "actualEndDt",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 7,
+               "y": 191
+            }
+         ]
+      ],
+      "TabView": [
+         [
+            {
+               "h": 283,
+               "i": "GroupableContainer",
+               "minH": 50,
+               "minW": 2,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 9
+            }
+         ],
+         [
+            {
+               "h": 64,
+               "i": "mrmgUsers",
+               "minH": 50,
+               "minW": 4,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 67,
+               "i": "modelTeam",
+               "minH": 50,
+               "minW": 4,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 137
+            },
+            {
+               "h": 68,
+               "i": "validators",
+               "minH": 50,
+               "minW": 4,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 68
+            }
+         ],
+         [
+            {
+               "h": 50,
+               "i": "implementationDt",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 0,
+               "y": 181
+            },
+            {
+               "h": 50,
+               "i": "lastPerfRevDt",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 0,
+               "y": 126
+            },
+            {
+               "h": 50,
+               "i": "lastFsvDt",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 0,
+               "y": 240
+            },
+            {
+               "h": 247,
+               "i": "reviewComments",
+               "minH": 236,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 8,
+               "x": 3,
+               "y": 136
+            },
+            {
+               "h": 50,
+               "i": "annualReviewStatus",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "lastAnnualRevDt",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 3,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "nextAnnualRevDt",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 6,
+               "y": 0
+            }
+         ],
+         [
+            {
+               "h": 50,
+               "i": "materiality",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 0,
+               "y": 18
+            },
+            {
+               "h": 50,
+               "i": "validationRating",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 0,
+               "y": 91
+            },
+            {
+               "h": 50,
+               "i": "nextValidationDt",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 0,
+               "y": 168
+            },
+            {
+               "h": 24,
+               "i": "issueMgmtFlg",
+               "minH": 24,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 0,
+               "y": 243
+            },
+            {
+               "h": 269,
+               "i": "reviewComments_1",
+               "minH": 236,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 9,
+               "x": 3,
+               "y": 22
+            }
+         ],
+         [
+            {
+               "h": 24,
+               "i": "implementationFlg",
+               "minH": 24,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 0,
+               "y": 28
+            },
+            {
+               "h": 284,
+               "i": "reviewComments_3",
+               "minH": 236,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 8,
+               "x": 3,
+               "y": 25
+            }
+         ],
+         [
+            {
+               "h": 50,
+               "i": "lastPerfRevDt_1",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 0,
+               "y": 15
+            },
+            {
+               "h": 294,
+               "i": "reviewComments_2",
+               "minH": 236,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 9,
+               "x": 3,
+               "y": 19
+            }
+         ],
+         [
+            {
+               "h": 304,
+               "i": "reviewComments_4",
+               "minH": 236,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 10,
+               "x": 1,
+               "y": 11
+            }
+         ],
+         [
+            {
+               "h": 66,
+               "i": "linkedReviews",
+               "minH": 50,
+               "minW": 4,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 67
+            },
+            {
+               "h": 63,
+               "i": "linkedFindings",
+               "minH": 50,
+               "minW": 4,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 4
+            }
+         ],
+         [
+            {
+               "h": 218,
+               "i": "additionalAttachments",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 1
+            },
+            {
+               "h": 332,
+               "i": "additionalComments",
+               "minH": 236,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 6,
+               "y": 0
+            },
+            {
+               "h": 87,
+               "i": "additionalLinks",
+               "minH": 54,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 257
+            }
+         ]
+      ],
+      "base": [
+         {
+            "h": 50,
+            "i": "reviewStatus",
+            "minH": 50,
+            "minW": 1,
+            "moved": false,
+            "static": false,
+            "w": 2,
+            "x": 4,
+            "y": 11
+         },
+         {
+            "h": 50,
+            "i": "reviewType",
+            "minH": 50,
+            "minW": 1,
+            "moved": false,
+            "static": false,
+            "w": 4,
+            "x": 0,
+            "y": 10
+         },
+         {
+            "h": 992,
+            "i": "TabView",
+            "minH": 50,
+            "minW": 2,
+            "moved": false,
+            "static": false,
+            "w": 12,
+            "x": 0,
+            "y": 239
+         },
+         {
+            "h": 50,
+            "i": "createdDt",
+            "minH": 50,
+            "minW": 1,
+            "moved": false,
+            "static": false,
+            "w": 2,
+            "x": 6,
+            "y": 10
+         },
+         {
+            "h": 120,
+            "i": "Accordion",
+            "minH": 50,
+            "minW": 2,
+            "moved": false,
+            "static": false,
+            "w": 12,
+            "x": 0,
+            "y": 73
+         },
+         {
+            "h": 20,
+            "i": "Image",
+            "minH": 1,
+            "minW": 1,
+            "moved": false,
+            "static": false,
+            "w": 12,
+            "x": 0,
+            "y": 212
+         }
+      ]
+   },
+   "page": {
+      "entrypoints": {
+         "copy": {
+            "name": "onModelReviewCopyLoad"
+         },
+         "draft": {
+            "name": "onModelReviewDraftLoad"
+         },
+         "edit": {
+            "name": "onModelReviewEditLoad"
+         }
+      },
+      "events": {},
+      "props": {
+         "description": "",
+         "icon": "base://MODEL_REVIEW",
+         "id": "ModelReview",
+         "label": "Model Review"
+      }
+   },
+   "structure": {
+      "Accordion": [
+         [
+            {
+               "compName": "RGFClassification",
+               "fieldName": "classification",
+               "id": "classification",
+               "libName": "base",
+               "parentId": "Accordion",
+               "props": {}
+            }
+         ]
+      ],
+      "GroupableContainer": [
+         [
+            {
+               "compName": "InputText",
+               "fieldName": "objectId",
+               "id": "objectId",
+               "libName": "base",
+               "parentId": "GroupableContainer",
+               "props": {}
+            },
+            {
+               "compName": "InputText",
+               "fieldName": "name",
+               "id": "name",
+               "libName": "base",
+               "parentId": "GroupableContainer",
+               "props": {}
+            },
+            {
+               "compName": "InputTextarea",
+               "fieldName": "description",
+               "id": "description",
+               "libName": "base",
+               "parentId": "GroupableContainer",
+               "props": {
+                  "rows": 3
+               }
+            },
+            {
+               "compName": "Calendar",
+               "fieldName": "plannedStartDt",
+               "id": "plannedStartDt",
+               "libName": "base",
+               "parentId": "GroupableContainer",
+               "props": {}
+            },
+            {
+               "compName": "Calendar",
+               "fieldName": "plannedEndDt",
+               "id": "plannedEndDt",
+               "libName": "base",
+               "parentId": "GroupableContainer",
+               "props": {}
+            },
+            {
+               "compName": "Calendar",
+               "fieldName": "actualStartDt",
+               "id": "actualStartDt",
+               "libName": "base",
+               "parentId": "GroupableContainer",
+               "props": {}
+            },
+            {
+               "compName": "Calendar",
+               "fieldName": "actualEndDt",
+               "id": "actualEndDt",
+               "libName": "base",
+               "parentId": "GroupableContainer",
+               "props": {}
+            }
+         ]
+      ],
+      "TabView": [
+         [
+            {
+               "compName": "GroupableContainer",
+               "id": "GroupableContainer",
+               "label": "appbuilder.toolboxitem.groupableContainer.title",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {
+                  "activeIndex": 0,
+                  "headers": [
+                     "default"
+                  ]
+               }
+            }
+         ],
+         [
+            {
+               "compName": "RGFRelationshipContainer",
+               "fieldName": "mrmgUsers",
+               "id": "mrmgUsers",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "RGFRelationshipContainer",
+               "fieldName": "modelTeam",
+               "id": "modelTeam",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "RGFRelationshipContainer",
+               "fieldName": "validators",
+               "id": "validators",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            }
+         ],
+         [
+            {
+               "compName": "Calendar",
+               "fieldName": "implementationDt",
+               "id": "implementationDt",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "Calendar",
+               "fieldName": "lastPerfRevDt",
+               "id": "lastPerfRevDt",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "Calendar",
+               "fieldName": "lastFsvDt",
+               "id": "lastFsvDt",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "Comments",
+               "fieldName": "reviewComments",
+               "id": "reviewComments",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "Dropdown",
+               "fieldName": "annualReviewStatus",
+               "id": "annualReviewStatus",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "Calendar",
+               "fieldName": "lastAnnualRevDt",
+               "id": "lastAnnualRevDt",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "Calendar",
+               "fieldName": "nextAnnualRevDt",
+               "id": "nextAnnualRevDt",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            }
+         ],
+         [
+            {
+               "compName": "ColorDropdown",
+               "fieldName": "materiality",
+               "id": "materiality",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "ColorDropdown",
+               "fieldName": "validationRating",
+               "id": "validationRating",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "Calendar",
+               "fieldName": "nextValidationDt",
+               "id": "nextValidationDt",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "CheckboxField",
+               "fieldName": "issueMgmtFlg",
+               "id": "issueMgmtFlg",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "Comments",
+               "fieldName": "reviewComments",
+               "id": "reviewComments_1",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            }
+         ],
+         [
+            {
+               "compName": "CheckboxField",
+               "fieldName": "implementationFlg",
+               "id": "implementationFlg",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "Comments",
+               "fieldName": "reviewComments",
+               "id": "reviewComments_3",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            }
+         ],
+         [
+            {
+               "compName": "Calendar",
+               "fieldName": "lastPerfRevDt",
+               "id": "lastPerfRevDt_1",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "Comments",
+               "fieldName": "reviewComments",
+               "id": "reviewComments_2",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            }
+         ],
+         [
+            {
+               "compName": "Comments",
+               "fieldName": "reviewComments",
+               "id": "reviewComments_4",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            }
+         ],
+         [
+            {
+               "compName": "RGFRelationshipContainer",
+               "fieldName": "linkedReviews",
+               "id": "linkedReviews",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "RGFRelationshipContainer",
+               "fieldName": "linkedFindings",
+               "id": "linkedFindings",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            }
+         ],
+         [
+            {
+               "compName": "RGFAttachments",
+               "fieldName": "additionalAttachments",
+               "id": "additionalAttachments",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "Comments",
+               "fieldName": "additionalComments",
+               "id": "additionalComments",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "Links",
+               "fieldName": "additionalLinks",
+               "id": "additionalLinks",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            }
+         ]
+      ],
+      "base": [
+         {
+            "compName": "Dropdown",
+            "fieldName": "reviewStatus",
+            "id": "reviewStatus",
+            "libName": "base",
+            "parentId": "base",
+            "props": {}
+         },
+         {
+            "compName": "Dropdown",
+            "fieldName": "reviewType",
+            "id": "reviewType",
+            "libName": "base",
+            "parentId": "base",
+            "props": {}
+         },
+         {
+            "compName": "TabView",
+            "id": "TabView",
+            "label": "appbuilder.toolboxitem.tabview.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {
+               "activeIndex": 1
+            }
+         },
+         {
+            "compName": "Calendar",
+            "fieldName": "createdDt",
+            "id": "createdDt",
+            "libName": "base",
+            "parentId": "base",
+            "props": {}
+         },
+         {
+            "compName": "Accordion",
+            "id": "Accordion",
+            "label": "appbuilder.toolboxitem.accordion.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {}
+         },
+         {
+            "compName": "Image",
+            "id": "Image",
+            "label": "appbuilder.toolboxitem.image.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {}
+         }
+      ]
+   }
+}

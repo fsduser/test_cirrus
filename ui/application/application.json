@@ -1,0 +1,135 @@
+{
+   "description": "The solution description, this is a demo",
+   "displayName": "SAS® Model Risk Management",
+   "events": {
+      "onFirstLoad": {
+         "name": "onFirstLoad"
+      }
+   },
+   "helpUrl": "https://documentation.sas.com/?requestor=inapp\u0026locale={locale}",
+   "home": "Home",
+   "id": "MRM",
+   "libraries": [
+      "CirrusMRM"
+   ],
+   "menu": [
+      {
+         "icon": "base://GROOVE_HOME",
+         "id": "home",
+         "pageId": "Home",
+         "type": "item"
+      },
+      {
+         "icon": "base://BANNER_SEARCH",
+         "id": "Search",
+         "pageId": "Search",
+         "type": "item"
+      },
+      {
+         "icon": "base://GROOVE_MODELS",
+         "id": "models",
+         "pageId": "ModelInventory",
+         "type": "item"
+      },
+      {
+         "icon": "base://GROOVE_MODEL_REVIEW",
+         "id": "modelReviews",
+         "pageId": "ModelReviews",
+         "type": "item"
+      },
+      {
+         "icon": "base://GROOVE_ISSUE",
+         "id": "findings",
+         "pageId": "Findings",
+         "type": "item"
+      },
+      {
+         "id": "settingsGroup",
+         "type": "group"
+      },
+      {
+         "icon": "base://GROOVE_SOURCE_DATABASE",
+         "id": "DataLoad",
+         "pageId": "DataLoad",
+         "type": "item"
+      }
+   ],
+   "pages": {
+      "Administration": {
+         "isTemplate": false,
+         "name": "Administration",
+         "type": "application"
+      },
+      "DataLoad": {
+         "isTemplate": false,
+         "name": "DataLoad",
+         "type": "application"
+      },
+      "Finding": {
+         "name": "Finding",
+         "object": "Finding",
+         "type": "object"
+      },
+      "Findings": {
+         "isTemplate": false,
+         "name": "Findings",
+         "type": "application"
+      },
+      "Home": {
+         "name": "Home Page",
+         "type": "application"
+      },
+      "Model": {
+         "name": "Model",
+         "object": "Model",
+         "type": "object"
+      },
+      "ModelInventory": {
+         "isTemplate": false,
+         "name": "Model Inventory",
+         "type": "application"
+      },
+      "ModelReview": {
+         "isTemplate": false,
+         "name": "Model Review",
+         "object": "ModelReview",
+         "type": "object"
+      },
+      "ModelReviews": {
+         "isTemplate": false,
+         "name": "Model Reviews",
+         "type": "application"
+      },
+      "ModelScorecard": {
+         "isTemplate": true,
+         "name": "Model Scorecard",
+         "object": "Model",
+         "type": "object"
+      },
+      "ModelTemplate": {
+         "isTemplate": true,
+         "name": "Model Template",
+         "object": "Model",
+         "type": "object"
+      },
+      "ObjectManagerTemplate": {
+         "isTemplate": true,
+         "name": "Object Manager Template",
+         "type": "application"
+      },
+      "OverlayWarning": {
+         "isTemplate": false,
+         "name": "Overlay Warning",
+         "object": "Model",
+         "type": "object"
+      },
+      "Search": {
+         "isTemplate": false,
+         "name": "Search",
+         "type": "application"
+      }
+   },
+   "path": "/MRM",
+   "schema": "MRM",
+   "version": "1"
+}
